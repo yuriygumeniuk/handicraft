@@ -1,0 +1,26 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "PEPSI";
+  src: url("../fonts/PEPSIpl.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/PEPSIpl.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/PEPSIpl.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/PEPSIpl.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/PEPSIpl.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/PEPSIpl.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/PEPSIpl.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Vani";
+  src: url("../fonts/Vani.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Vani.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Vani.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Vani.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Vani.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Vani.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Vani.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
