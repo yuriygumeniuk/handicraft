@@ -169,3 +169,48 @@ body {
 	font-weight: 400;
 	text-transform: uppercase;
 }
+/*---------- section main-navigation ----------*/
+.main-navigation {
+	height: 130px;
+}
+.main-navigation__list {
+	height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+.main-navigation__item {
+	position: relative;
+}
+.main-navigation__item a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 271px;
+	height: 49px;
+}
+.main-navigation-arrow {
+	position: absolute;
+	z-index: 1;
+}
+.main-naviagation-text {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-naviagation-text * {
+	display: block;
+}
+.main-naviagation-text span {
+	margin-left: 8px;
+	padding-bottom: 5px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.55px;
+}
