@@ -171,7 +171,7 @@ body {
 }
 /*---------- section main-navigation ----------*/
 .main-navigation {
-	height: 130px;
+	height: 100px;
 }
 .main-navigation__list {
 	height: 130px;
@@ -213,4 +213,115 @@ body {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.55px;
+}
+/*---------- category-name block ----------*/
+.category-name {
+	position: relative;
+}
+.category-name-title-block {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.category-name-title__text {
+	text-align: center;
+	min-width: 220px;
+	z-index: 2;
+	background-color: rgba(255, 255, 255, 1);
+	color: #333333;
+	font-family: "Vani";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}
+.hr {
+	position: absolute;
+	z-index: 1;
+	display: inline-block;
+	width: 1170px;
+	height: 1px;
+	background-color: #cccccc;
+	content: '';
+}
+/*---------- category new-product ----------*/
+.new-product-block {
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.new-product-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 270px;
+	height: 436px;
+	border: 1px solid #e9e9e9;
+	text-align: center;
+	transition: all 200ms linear;
+}
+.new-product-item:hover {
+	border: 1px solid rgba(233, 233, 233, 0);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	height: 330px;
+	background-color: #e9e9e9;
+}
+.img-block img {
+}
+.new-product-item-footer {
+	padding-top: 16px;
+	height: 86px;	
+}
+.new-product-item__name {
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+.item-footer-buy {
+	width: 250px;
+	margin-top: 21px;
+	padding: 0 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.new-product-item-price__block {
+	display: flex;
+}
+.new-product-item__currency {
+	float: left;
+}
+.new-product-item-price__total {
+	margin-left: 7px;
+	/*----view----*/
+	color: #b70f1c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+.new-product-item__btn {
+	padding-top: 6px;
+	text-align: center;
+	width: 122px;
+	height: 28px;
+	background-color: #b98a05;
+	border-radius: 5px;
+	/*----view----*/
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
 }
