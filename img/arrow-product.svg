@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="275" height="54" viewBox="0 0 275 54"><defs><mask id="kcsbb" width="2" height="2" x="-1" y="-1"><path fill="#fff" d="M1 0h271v49H1z"/><path d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z"/></mask><filter id="kcsba" width="298.5" height="77.6" x="-12" y="-13" filterUnits="userSpaceOnUse"><feOffset dx="1.5" dy="2.6" in="SourceGraphic" result="FeOffset1023Out"/><feGaussianBlur in="FeOffset1023Out" result="FeGaussianBlur1024Out" stdDeviation="1.2 1.2"/></filter></defs><g><g><g filter="url(#kcsba)"><path fill="none" d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z" mask="url(&quot;#kcsbb&quot;)"/><path fill="#231f20" fill-opacity=".75" d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z"/></g><path fill="#b98a05" d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="275" height="54" viewBox="0 0 275 54">
+	<defs>
+		<mask id="kcsbb" width="2" height="2" x="-1" y="-1">
+			<path fill="#fff" d="M1 0h271v49H1z"/>
+			<path d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z"/>
+		</mask>
+		<filter id="kcsba" width="298.5" height="77.6" x="-12" y="-13" filterUnits="userSpaceOnUse">
+			<feOffset dx="1.5" dy="2.6" in="SourceGraphic" result="FeOffset1023Out"/>
+			<feGaussianBlur in="FeOffset1023Out" result="FeGaussianBlur1024Out" stdDeviation="1.2 1.2"/>
+		</filter>
+	</defs>
+	<g>
+		<g>
+			<g filter="url(#kcsba)">
+				<path fill="none" d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z" mask="url(&quot;#kcsbb&quot;)"/>
+				<path fill="#231f20" fill-opacity=".75" d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z"/>
+			</g>
+			<path fill="#b98a05" d="M.985 48.992l14.492-24.491L.984.008H256.76L271.253 24.5 256.76 48.992z"/>
+		</g>
+	</g>
+</svg>
