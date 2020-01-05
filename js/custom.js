@@ -9,7 +9,7 @@ function ibg(){
     });
 }
 ibg();
-
+  // slider banner
   var mySwiper = new Swiper('.slider', {
       roundLengths: true,
       slidesPerView: 1,
@@ -20,7 +20,8 @@ ibg();
         prevEl: '.arrow-left',
       },
   });
-
+  
+  // slider new + featured
   var mySwiper = new Swiper('.new-product-block', {
     slidesPerView: 4,    
     slidesPerGroup: 2,
@@ -48,7 +49,8 @@ ibg();
              newSwiper.autoplay.start();
         });
 
-var testimonialsSwiper = new Swiper(".slider", {
+// slider tesimonials
+var testimonialsSwiper = new Swiper('.testimonials-slider', {
   fadeEffect: { crossFade: true },
   virtualTranslate: true,
   autoplay: {
