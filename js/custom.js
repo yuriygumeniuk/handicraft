@@ -1,5 +1,15 @@
 $(document).ready(function () {
 
+function ibg(){
+    $.each($('.ibg'), function(index, val) {
+        if($(this).find('.img_bg').length>0){
+            $(this).css('background-image','url("'+$(this).find('img').attr('src')+'")');
+            $(this).find('.img_bg').css('display','none');
+        }
+    });
+}
+ibg();
+
   var mySwiper = new Swiper('.slider', {
       roundLengths: true,
       slidesPerView: 1,
@@ -27,20 +37,31 @@ $(document).ready(function () {
     var featuredSwiper = document.querySelector('#featured-slider').swiper;
         $('#featured-slider').hover(function(){
              featuredSwiper.autoplay.stop();
-             console.log('featured Stop');
         }, function(){
              featuredSwiper.autoplay.start();
-             console.log('featured Start');
         });
 
     var newSwiper = document.querySelector('#new-slider').swiper;
         $('#new-slider').hover(function(){
              newSwiper.autoplay.stop();
-             console.log('new Stop');
         }, function(){
              newSwiper.autoplay.start();
-             console.log('new Start');
         });
 
+var testimonialsSwiper = new Swiper(".slider", {
+  fadeEffect: { crossFade: true },
+  virtualTranslate: true,
+  autoplay: {
+      delay: 8000,
+      disableOnInteraction: false,
+  },
+  speed: 1500, 
+  slidersPerView: 1,
+  effect: "fade",
+  pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+});
 
 });
