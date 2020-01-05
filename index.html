@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/swiper.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -45,21 +46,45 @@
 	</div>
 </header>
 <main>
-<section class="slider">
-	<div class="slider-banner"><img src="img/banner.jpg" alt=""></div>
-	<img src="img/slider-01.png" alt="">
-	<a id="arrow-left" href="#!"><div class="slider-arrow">&#xf053;</div></a>
-	<a id="arrow-right" href="#!"><div class="slider-arrow right">&#xf053;</div></a>
-	<div class="slider-banner-text">
-		<div class="slider-banner__title">Lorem Ipsum is simply</div>
-		<div class="slider-banner__desc">
-			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<section class="slider swiper-container">
+	<div class="swiper-wrapper">
+		<!-- 1 -->
+		<div class="slider-item swiper-slide">
+			<div class="item-block">
+				<div class="slider-banner"><img src="img/banner.jpg" alt=""></div>
+				<img src="img/slider-01.png" alt="">
+				<div class="slider-banner-text">
+					<div class="slider-banner__title">1 Lorem Ipsum is simply</div>
+					<div class="slider-banner__desc">
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+					</div>
+					<a href="#!">
+						<div class="slider-banner__btn">Read More</div>
+					</a>
+				</div>
+			</div>	
 		</div>
-		<a href="#!">
-			<div class="slider-banner__btn">Read More</div>
-		</a>
-	</div>
+		<!-- 2 -->
+		<div class="slider-item swiper-slide">
+			<div class="item-block">
+				<div class="slider-banner"><img src="img/banner.jpg" alt=""></div>
+				<img src="img/slider-01.png" alt="">
+				<div class="slider-banner-text">
+					<div class="slider-banner__title">2 Lorem Ipsum is simply</div>
+					<div class="slider-banner__desc">
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+					</div>
+					<a href="#!">
+						<div class="slider-banner__btn">Read More</div>
+					</a>
+				</div>
+			</div>	
+		</div>
+	</div> <!-- slider-wrapper  end -->
+	<a href="#!"><div class="arrow-left slider-arrow">&#xf053;</div></a>
+	<a href="#!"><div class="arrow-right slider-arrow right">&#xf053;</div></a>
 </section>
+
 <section class="main-navigation wrapper">
 	<nav>
 		<ul class="main-navigation__list">
@@ -106,78 +131,166 @@
 		</ul>
 	</nav>
 </section>  <!-- .main-navigation --------->
+
 <section class="category-name wrapper">
 	<div class="category-name-title-block">
 		<div class="hr"></div>
 		<div class="category-name-title__text">New Product</div>
 	</div>
-	<div class="new-product-block">
-		<!-- 1 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-01.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+
+	<!-- slider -->
+	<div id="new-slider" class="new-product-block swiper-container">
+		<div class="swiper-wrapper">
+			<!-- 1 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-01.jpg" alt="">
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> 			
+			</div>
+			<!-- 2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-02.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
 				</div>	
 			</div>
-		</div> <!-- .new-product-item --------->
-		<!-- 2 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-02.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+			<!-- 3 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-03.jpg" alt="">
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!-- 4 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-04.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!-- 1-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-01.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> 			
+			</div>
+			<!-- 2-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-02.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
 				</div>	
 			</div>
-		</div> <!-- .new-product-item --------->
-		<!-- 3 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-03.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+			<!-- 3-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-03.jpg" alt="">
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
-				</div>	
-			</div>
-		</div> <!-- .new-product-item --------->
-		<!-- 4 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-04.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
-				</div>	
+				</div>
 			</div>
-		</div> <!-- .new-product-item --------->
-	</div>
+			<!-- 4-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-04.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!--  -->
+		</div>	
+	</div> <!-- slider end -------------------->
+
 </section> <!-- .new-product -------------->
+
 <section class="connect">
 	<div class="connect__img"><img src="img/banner-02.jpg" alt=""></div>
 	<div class="connect-text">
@@ -195,71 +308,82 @@
 		<div class="hr"></div>
 		<div class="category-name-title__text">Featured Products</div>
 	</div>
-	<div class="new-product-block">
-		<!-- 5 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-05.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+	<!-- slider -->
+	<div id="featured-slider" class="new-product-block swiper-container">
+		<div class="swiper-wrapper">
+			<!-- 5 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-05.jpg" alt="">
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
-				</div>	
-			</div>
-		</div> <!-- .new-product-item --------->
-		<!-- 6 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-06.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
-				</div>	
+				</div> <!-- .new-product-item --------->
 			</div>
-		</div> <!-- .new-product-item --------->
-		<!-- 7 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-07.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+			<!-- 6 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-06.jpg" alt="">
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
-				</div>	
-			</div>
-		</div> <!-- .new-product-item --------->
-		<!-- 8 -->
-		<div class="new-product-item">
-			<div class="img-block">
-				<img src="img/product-08.jpg" alt="">
-			</div>
-			<div class="new-product-item-footer">
-				<div class="new-product-item__name">Handmade Bone Necklace</div>
-				<div class="item-footer-buy">
-					<div class="new-product-item-price__block">
-						<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
-						<div class="new-product-item-price__total">3599.00</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
 					</div>
-					<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
-				</div>	
+				</div>
 			</div>
-		</div> <!-- .new-product-item --------->
+			<!-- 7 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-07.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> <!-- .new-product-item --------->
+			</div>
+			<!-- 8 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-08.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> <!-- .new-product-item --------->
+			</div>
+		</div>	
 	</div>
 </section> <!-- .new-product -------------->
 <section class="testimonials">
@@ -359,5 +483,8 @@
 	</div>
 </section>	
 </footer>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>

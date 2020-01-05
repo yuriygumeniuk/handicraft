@@ -250,11 +250,11 @@ body {
 }
 /*---------- category new-product ----------*/
 .new-product-block {
-	margin-top: 5px;
 	display: flex;
 	justify-content: space-between;
 }
 .new-product-item {
+	margin: 8px;	
 	display: flex;
 	align-items: center;
 	justify-content: center;

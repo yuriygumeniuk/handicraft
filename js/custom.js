@@ -1,35 +1,46 @@
 $(document).ready(function () {
- 
-var homeSwiper = new Swiper(".slider", {
-  fadeEffect: { crossFade: true },
-  virtualTranslate: true,
-  autoplay: {
-      delay: 8000,
+
+  var mySwiper = new Swiper('.slider', {
+      roundLengths: true,
+      slidesPerView: 1,
+      speed: 2000,
+      loop: true,
+      navigation: {
+        nextEl: '.arrow-right',
+        prevEl: '.arrow-left',
+      },
+  });
+
+  var mySwiper = new Swiper('.new-product-block', {
+    slidesPerView: 4,    
+    slidesPerGroup: 2,
+    loop: true,    
+    spaceBetween: 8,
+    freeMode: false,
+    speed: 4000,
+    autoplay: {
+      delay: 5000,
       disableOnInteraction: false,
-  },
-  speed: 1500, 
-  slidersPerView: 1,
-  effect: "fade",
-  pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
     },
-});
+  });
+  
+    var featuredSwiper = document.querySelector('#featured-slider').swiper;
+        $('#featured-slider').hover(function(){
+             featuredSwiper.autoplay.stop();
+             console.log('featured Stop');
+        }, function(){
+             featuredSwiper.autoplay.start();
+             console.log('featured Start');
+        });
 
+    var newSwiper = document.querySelector('#new-slider').swiper;
+        $('#new-slider').hover(function(){
+             newSwiper.autoplay.stop();
+             console.log('new Stop');
+        }, function(){
+             newSwiper.autoplay.start();
+             console.log('new Start');
+        });
 
-  // var mySwiper = new Swiper ('.slider', {
-  //   effect: 'fade',
-  //   // roundLengths: true,
-  //  	// slidesPerView: 1,
-  //   // spaceBetween: 22,
-  //   // freeMode: false,
-  //   // loop: true,
-  //   speed: 1500,
-  //   autoplay: {
-  //       delay: 10000,
-  //       disableOnInteraction: false,
-  //   }
-
-  // })
 
 });
