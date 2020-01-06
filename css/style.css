@@ -94,7 +94,9 @@
 	text-transform: uppercase;
 	letter-spacing: 0.35px;
 }
-.header-navigation__item:hover a, .header-navigation__item.active a{
+.header-navigation__item.active a,
+.header-navigation__item:hover a
+{
 	color: #b98a05;
 }
 /*========== MAIN ==================*/

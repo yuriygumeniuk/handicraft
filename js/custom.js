@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+  $('.header-navigation__item a').click(function(){
+    $(this).parents('.header-navigation-list').find('.header-navigation__item').removeClass('active');
+    $(this).parent().addClass('active');
+    return false
+  });
+
 function ibg(){
     $.each($('.ibg'), function(index, val) {
         if($(this).find('.img_bg').length>0){
