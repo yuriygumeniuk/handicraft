@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>	
+<header class="header">
+	<div class="wrap">
+		<div class="header-control">
+			<div class="header-logo">
+				<span>Logo</span>
+				<span>&nbsp;here</span>
+			</div>
+			<div class="header-cart-block">
+				<a href="#!" class="header-cart">
+					<img src="img/cart.png" alt="">
+					<div class="header-cart__total">0<span>&nbsp;Item</span></div>		
+				</a>	
+				<a href="#!" class="header-search">&#xf002;</a>
+				<div class="hv"></div>
+				<a href="" class="header-gamb-menu">
+					<img src="img/gamburger.png" alt="">
+				</a>
+			</div>
+		</div>	
+		<nav class="header-navigation">
+			<ul class="header-navigation-list">
+				<li class="header-navigation__item active"><a href="#!">Home</a></li>
+				<li class="header-navigation__item"><a href="#!">jewelry</a></li>
+				<li class="header-navigation__item"><a href="#!">Utility</a></li>
+				<li class="header-navigation__item"><a href="#!">Wooden Handicrafts</a></li>
+				<li class="header-navigation__item"><a href="#!">Marble Handicrafts</a></li>
+				<li class="header-navigation__item"><a href="#!">metal Crafts</a></li>
+				<li class="header-navigation__item"><a href="#!">Home Decor</a></li>
+				<li class="header-navigation__item"><a href="#!">Featured</a></li>
+				<li class="header-navigation__item"><a href="#!">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<main>
+<section class="slider swiper-container wrap">
+	<div class="swiper-wrapper">
+		<!-- 1 -->
+		<div class="slider-item swiper-slide">
+			<div class="item-block">
+				<div class="slider-banner"><img src="img/banner.jpg" alt=""></div>
+				<img src="img/slider-01.png" alt="">
+				<div class="slider-banner-text">
+					<div class="slider-banner__title">1 Lorem Ipsum is simply</div>
+					<div class="slider-banner__desc">
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+					</div>
+					<a href="#!">
+						<div class="slider-banner__btn">Read More</div>
+					</a>
+				</div>
+			</div>	
+		</div>
+		<!-- 2 -->
+		<div class="slider-item swiper-slide">
+			<div class="item-block">
+				<div class="slider-banner"><img src="img/banner.jpg" alt=""></div>
+				<img src="img/slider-01.png" alt="">
+				<div class="slider-banner-text">
+					<div class="slider-banner__title">2 Lorem Ipsum is simply</div>
+					<div class="slider-banner__desc">
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+					</div>
+					<a href="#!">
+						<div class="slider-banner__btn">Read More</div>
+					</a>
+				</div>
+			</div>	
+		</div>
+	</div> <!-- slider-wrapper  end -->
+	<a href="#!"><div class="arrow-left slider-arrow">&#xf053;</div></a>
+	<a href="#!"><div class="arrow-right slider-arrow right">&#xf053;</div></a>
+</section>
+
+<section class="main-navigation wrap">
+	<nav>
+		<ul class="main-navigation__list">
+			<!-- 1 -->
+			<li class="main-navigation__item">
+				<a href="#!">
+					<img src="img/arrow-product.svg" alt="" class="main-navigation-arrow">
+					<div class="main-naviagation-text">
+						<img src="img/navigation-01.png" alt="" class="main-navigation__ico">
+						<span>Choose</span>
+					</div>
+				</a>
+			</li>
+			<!-- 2 -->
+			<li class="main-navigation__item">
+				<a href="#!">
+					<img src="img/arrow-product.svg" alt="" class="main-navigation-arrow">
+					<div class="main-naviagation-text">
+						<img src="img/navigation-02.png" alt="" class="main-navigation__ico">
+						<span>Order</span>
+					</div>
+				</a>
+			</li>
+			<!-- 3 -->
+			<li class="main-navigation__item">
+				<a href="#!">
+					<img src="img/arrow-product.svg" alt="" class="main-navigation-arrow">
+					<div class="main-naviagation-text">
+						<img src="img/navigation-03.png" alt="" class="main-navigation__ico">
+						<span>Pay</span>
+					</div>
+				</a>
+			</li>
+			<!-- 4 -->
+			<li class="main-navigation__item">
+				<a href="#!">
+					<img src="img/arrow-product.svg" alt="" class="main-navigation-arrow">
+					<div class="main-naviagation-text">
+						<img src="img/navigation-03.png" alt="" class="main-navigation__ico">
+						<span>Receive</span>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</section>  <!-- .main-navigation --------->
+
+<section class="category-name wrap">
+	<div class="category-name-title-block">
+		<div class="hr"></div>
+		<div class="category-name-title__text">New Product</div>
+	</div>
+
+	<!-- slider -->
+	<div id="new-slider" class="new-product-block swiper-container">
+		<div class="swiper-wrapper">
+			<!-- 1 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-01.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> 			
+			</div>
+			<!-- 2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-02.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>	
+			</div>
+			<!-- 3 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-03.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!-- 4 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-04.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!-- 1-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-01.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> 			
+			</div>
+			<!-- 2-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-02.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>	
+			</div>
+			<!-- 3-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-03.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!-- 4-2 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-04.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!--  -->
+		</div>	
+	</div> <!-- slider end -------------------->
+
+</section> <!-- .new-product -------------->
+
+<section class="connect wrap">
+	<div class="connect__img ibg">
+		<img src="img/banner-02.jpg" class="img_bg" alt="">
+	</div>
+	<div class="connect-text">
+		<div class="connect__title">connect with us</div>
+		<div class="connect__desc">
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+			<br>
+			<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+		</div>
+		<a href="#!" class="connect__btn">Join Now!</a>
+	</div>	
+</section>
+<section class="category-name wrap">
+	<div class="category-name-title-block">
+		<div class="hr"></div>
+		<div class="category-name-title__text">Featured Products</div>
+	</div>
+	<!-- slider -->
+	<div id="featured-slider" class="new-product-block swiper-container">
+		<div class="swiper-wrapper">
+			<!-- 5 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-05.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> <!-- .new-product-item --------->
+			</div>
+			<!-- 6 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-06.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!-- 7 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-07.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> <!-- .new-product-item --------->
+			</div>
+			<!-- 8 -->
+			<div class="swiper-slide">
+				<div class="new-product-item item-block">
+					<div class="img-block">
+						<img src="img/product-08.jpg" alt="">
+					</div>
+					<div class="new-product-item-footer">
+						<div class="new-product-item__name">Handmade Bone Necklace</div>
+						<div class="item-footer-buy">
+							<div class="new-product-item-price__block">
+								<div class="new-product-item__currency"><img src="img/currency.png" alt=""></div>
+								<div class="new-product-item-price__total">3599.00</div>
+							</div>
+							<a href="#!"><div class="new-product-item__btn">Quick View</div></a>
+						</div>	
+					</div>
+				</div> <!-- .new-product-item --------->
+			</div>
+		</div>	
+	</div>
+</section> <!-- .new-product -------------->
+<section class="testimonials wrap">
+	<div class="testimonials__fill"></div>
+	<div class="testimonials__img ibg"><img src="img/banner-03.jpg" class="img_bg" alt=""></div>
+	<!-- slider start -->
+	<div class="testimonials-slider swiper-container">
+		<div class="swiper-wrapper">
+			<!-- 1 -->
+			<div class="swiper-slide">
+				<div class="testimonials-content item-block">
+					<div class="testimonials-person">
+						<div class="testimonials-person__img">
+							<!-- <img src="img/person-background.svg" alt=""> -->
+							<img src="img/person.png" alt="">
+						</div>
+						<div class="testimonials-person__name">1 Jon Michel </div>
+						<div class="testimonials-person__position">CEO, Company Name</div>
+					</div>		
+					<div class="testimonials-text">
+						<div class="testimonials__title">what people are saying</div>
+						<div class="testimonials__desc">
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+							<br>
+							<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+						</div>
+					</div>
+				</div> <!-- block-item end -->	
+			</div> <!-- swiper-slide end -->	
+			<!-- 2 -->
+			<div class="swiper-slide">
+				<div class="testimonials-content item-block">
+					<div class="testimonials-person">
+						<div class="testimonials-person__img">
+							<!-- <img src="img/person-background.svg" alt=""> -->
+							<img src="img/person.png" alt="">
+						</div>
+						<div class="testimonials-person__name">2 Jon Michel </div>
+						<div class="testimonials-person__position">CEO, Company Name</div>
+					</div>		
+					<div class="testimonials-text">
+						<div class="testimonials__title">what people are saying</div>
+						<div class="testimonials__desc">
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+							<br>
+							<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+						</div>
+					</div>
+				</div> <!-- item-block end -->	
+			</div> <!-- swiper-slide end -->	
+			<!-- 3 -->
+			<div class="swiper-slide">
+				<div class="testimonials-content item-block">
+					<div class="testimonials-person">
+						<div class="testimonials-person__img">
+							<!-- <img src="img/person-background.svg" alt=""> -->
+							<img src="img/person.png" alt="">
+						</div>
+						<div class="testimonials-person__name">3 Jon Michel </div>
+						<div class="testimonials-person__position">CEO, Company Name</div>
+					</div>		
+					<div class="testimonials-text">
+						<div class="testimonials__title">what people are saying</div>
+						<div class="testimonials__desc">
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+							<br>
+							<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+						</div>
+					</div>
+				</div> <!-- item-block end -->	
+			</div> <!-- swiper-slide end -->	
+			<!-- 4 -->
+			<div class="swiper-slide">
+				<div class="testimonials-content item-block">
+					<div class="testimonials-person">
+						<div class="testimonials-person__img">
+							<!-- <img src="img/person-background.svg" alt=""> -->
+							<img src="img/person.png" alt="">
+						</div>
+						<div class="testimonials-person__name">4 Jon Michel </div>
+						<div class="testimonials-person__position">CEO, Company Name</div>
+					</div>		
+					<div class="testimonials-text">
+						<div class="testimonials__title">what people are saying</div>
+						<div class="testimonials__desc">
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+							<br>
+							<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+						</div>
+					</div>
+				</div> <!-- item-block end -->		
+			</div> <!-- swiper-slide end -->	
+			<!-- 5 -->
+			<div class="swiper-slide">
+				<div class="testimonials-content item-block">
+					<div class="testimonials-person">
+						<div class="testimonials-person__img">
+							<!-- <img src="img/person-background.svg" alt=""> -->
+							<img src="img/person.png" alt="">
+						</div>
+						<div class="testimonials-person__name">5 Jon Michel </div>
+						<div class="testimonials-person__position">CEO, Company Name</div>
+					</div>		
+					<div class="testimonials-text">
+						<div class="testimonials__title">what people are saying</div>
+						<div class="testimonials__desc">
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+							<br>
+							<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+						</div>
+					</div>
+				</div> <!-- item-block end -->		
+			</div> <!-- swiper-slide end -->	
+		</div> <!-- swiper-wrapper end -->
+		<div class="swiper-pagination"></div>
+	</div>	<!-- slider end -->
+
+	<div class="testimonials-slider-control">
+		<ul>
+			<li><a href="#!" class="testimonials-slider__btn active"></a></li>
+			<li><a href="#!" class="testimonials-slider__btn"></a></li>
+			<li><a href="#!" class="testimonials-slider__btn"></a></li>
+			<li><a href="#!" class="testimonials-slider__btn"></a></li>
+			<li><a href="#!" class="testimonials-slider__btn"></a></li>
+		</ul>
+	</div>	
+</section>
+</main>
+
+<footer class="footer">
+<section class="footer-control wrap">
+	<div class="footer-information">
+		<div class="footer-control__title">Information</div>
+		<div class="footer-hr"></div>
+		<div class="footer-information-link-block">
+			<div class="link-block">
+				<ul class="footer-link-list">
+					<li class="information__link"><a href="#!">Home</a></li>
+					<li class="information__link"><a href="#!">jewelry</a></li>
+					<li class="information__link"><a href="#!">Utility</a></li>
+					<li class="information__link"><a href="#!">Wooden Handicrafts</a></li>
+					<li class="information__link"><a href="#!">Marble Handicrafts</a></li>
+				</ul>
+			</div>
+			<div class="link-block-vh"></div>
+			<div class="link-block">
+				<ul class="footer-link-list">
+					<li class="information-link-list information__link"><a href="#!">Metal Crafts</a></li>
+					<li class="information-link-list information__link"><a href="#!">Home Decor</a></li>
+					<li class="information-link-list information__link"><a href="#!">Featured</a></li>
+					<li class="information-link-list information__link"><a href="#!">Contact Us</a></li>
+					<li class="information-link-list information__link"><a href="#!">Privacy Policy</a></li>
+				</ul>				
+			</div>
+		</div>
+	</div>
+	<div class="footer-account">
+		<div class="footer-control__title">My Account</div>
+		<div class="footer-hr"></div>
+		<ul class="footer-link-list">
+			<li class="information__link"><a href="#!">Shipping & Returns</a></li>
+			<li class="information__link"><a href="#!">My Account</a></li>
+			<li class="information__link"><a href="#!">My Address</a></li>
+			<li class="information__link"><a href="#!">Help</a></li>
+		</ul>
+	</div>
+	<div class="footer-social">
+		<div class="footer-control__title">Follow Us</div>
+		<div class="footer-hr"></div>
+		<ul class="footer-social-list">
+			<li class="footer-social-item"><a href="#!" class="footer-social__link">&#xe904;</a></li>
+			<li class="footer-social-item"><a href="#!" class="footer-social__link">&#xe903;</a></li>
+			<li class="footer-social-item"><a href="#!" class="footer-social__link">&#xe902;</a></li>
+			<li class="footer-social-item"><a href="#!" class="footer-social__link">&#xe901;</a></li>
+			<li class="footer-social-item"><a href="#!" class="footer-social__link">&#xe900;</a></li>
+			<li class="footer-social-item"><a href="#!" class="footer-social__link">&#xe905;</a></li>
+		</ul>
+	</div>
+	<div class="footer-newsletter">
+		<div class="footer-control__title">Newsletter</div>
+		<div class="footer-hr"></div>
+		<div class="footer-newsletter-block">
+			<input type="text" placeholder="Enter your Email..." class="footer-newsletter__amail">
+			<input type="submit" class="footer-newsletter__btn" value="subscribe">
+		</div>
+	</div>
+</section>
+<section class="payments">
+	<div class="payments-block wrap">
+		<img src="img/payments.png" alt="">
+	</div>
+</section>	
+</footer>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
