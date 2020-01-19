@@ -6,6 +6,7 @@
 .wrap {
   margin: 0 auto;
   width: 1170px;
+  overflow: hidden;
 }
 
 .ibg {
@@ -142,8 +143,12 @@
 /*---------- section slider ----------*/
 
 .slider {
-  position: relative;
   height: 465px;
+}
+
+.item-block {
+  width: 1170px;
+  overflow: hidden;
 }
 
 .slider-banner {
