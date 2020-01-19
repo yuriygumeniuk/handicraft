@@ -5,7 +5,11 @@
 .wrap {
 	margin: 0 auto;
 	width: 1170px;
-	overflow: hidden;
+}
+.wrap-content {
+	margin: 0 auto;
+	width: 1170px;	
+	padding: 0 20px;
 }
 .ibg {
 	width: 100%;
@@ -615,7 +619,7 @@
 .footer-newsletter {
 	width: 270px;
 }
-.footer-newsletter__amail {
+.footer-newsletter__email {
 	margin-bottom: 22px;
 	padding-left: 11px;
 	width: 270px;
@@ -627,6 +631,9 @@
 	font-weight: 400;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
+	&.err {
+		border: 1px solid red;
+	}
 }
 .footer-newsletter__btn {
 	width: 135px;

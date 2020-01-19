@@ -9,10 +9,12 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=1170, initial-scale=1">
+</head>
 </head>
 <body>	
 <header class="header">
-	<div class="wrap">
+	<div class="wrap-content">
 		<div class="header-control">
 			<div class="header-logo">
 				<span>Logo</span>
@@ -73,7 +75,7 @@
 	<a href="#!"><div class="arrow-right slider-arrow right">&#xf053;</div></a>
 </section>
 
-<section class="main-navigation wrap">
+<section class="main-navigation wrap-content">
 	<nav>
 		<ul class="main-navigation__list">
 			<!-- 1 -->
@@ -504,7 +506,7 @@
 </main>
 
 <footer class="footer">
-<section class="footer-control wrap">
+<section class="footer-control wrap-content">
 	<div class="footer-information">
 		<div class="footer-control__title">Information</div>
 		<div class="footer-hr"></div>
@@ -555,10 +557,10 @@
 	<div class="footer-newsletter">
 		<div class="footer-control__title">Newsletter</div>
 		<div class="footer-hr"></div>
-		<div class="footer-newsletter-block">
-			<input type="text" placeholder="Enter your Email..." class="footer-newsletter__amail">
-			<input type="submit" class="footer-newsletter__btn" value="subscribe">
-		</div>
+		<form action="#" class="footer-newsletter-block">
+			<input autocomplete="off" type="text" name="form[]" data-value="Enter your Email..." class="footer-newsletter__email input req email">
+			<button type="submit" class="footer-newsletter__btn">subscribe</button>
+		</form>
 	</div>
 </section>
 <section class="payments">
